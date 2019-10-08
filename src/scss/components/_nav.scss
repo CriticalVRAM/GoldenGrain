@@ -1,0 +1,25 @@
+.nav {
+    margin-top: -3rem;
+    
+    &__list {
+        display: flex;
+
+        list-style: none;
+    }
+
+    &__item {
+        margin: 2rem 2rem 0 2rem;
+    }
+    &__link {
+        font-family: $font-dec;
+        text-decoration: none;
+        font-size: 2.5rem;
+        color: black;
+        transition: font-size .3s;
+        border-bottom: none;
+        &:hover {
+            font-size: 2.75rem;
+            border-bottom: 4px solid $base-color;
+        }
+    }
+}
