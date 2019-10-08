@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    &__p {
+        font-size: 2rem;
+        text-transform: uppercase;
+        font-family: $font-dec;
+        align-self: center;
+        margin-bottom: -5rem;
+    }
+    &__logo {
+        height: 15rem;
+        width: auto;
+        margin-bottom: 6rem;
+    }
+}
