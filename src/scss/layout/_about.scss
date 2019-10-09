@@ -1,0 +1,24 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 0 17rem 0 17rem;
+
+    &__header {
+        border-bottom: 5px solid $base-color;
+        margin-bottom: 3.5rem;
+    }
+
+    &__btn-link {
+        text-decoration: none;
+        color: black;
+        font-family: $font-dec;
+        font-size: 2.5rem;
+    }
+
+    &__btns {
+        display: flex;
+        margin-top: 3rem;
+    }
+}
