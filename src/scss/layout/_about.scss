@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     margin-top: 5rem;
-    padding: 0 17rem 0 17rem;
+    padding: 0 20% 0 20%;
 
     &__header {
         border-bottom: 5px solid $base-color;
@@ -19,6 +19,6 @@
 
     &__btns {
         display: flex;
-        margin-top: 3rem;
+        margin-top: 4rem;
     }
 }
