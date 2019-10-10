@@ -1,0 +1,23 @@
+.gallery {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 1.5rem;
+    margin: 5rem 0 5rem 0;
+
+    &__item {
+        width: 45rem;
+        height: 30rem;
+        cursor: pointer;
+    }
+
+    &__image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: .3s;
+        &:hover {
+            transform: scale(1.02);
+        }
+    }
+}

@@ -17,7 +17,6 @@
             transform: scale(1.1);
         }
         &--main {
-            grid-column: span 2;
             transition: .3s;
             border-bottom: 5px solid $base-color;
             &:hover {

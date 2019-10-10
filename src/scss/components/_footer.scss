@@ -1,9 +1,9 @@
 .footer {
-    width: 100vw;
+    width: 100%;
     align-self: end;
 
     display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-content: space-around;
     justify-items: center;
 
@@ -65,7 +65,7 @@
         padding: 1rem;
     }
     &__button {
-        
+        cursor: pointer;
     }
 }
 
