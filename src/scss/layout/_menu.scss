@@ -1,12 +1,13 @@
 .menu {
+    display: grid;
+    grid-template-rows: min-content min-content;
     &__category {
         display: grid;
-        // grid-template-columns: auto auto auto;
         grid-auto-flow: column;
-        // grid-template-rows: auto auto;
         column-gap: 2rem;
         justify-items: center;
         padding: .5rem;
+        margin-bottom: 1rem;
     }
     &__category-name {
         cursor: pointer;
@@ -23,5 +24,32 @@
                 transform: none;
             }
         }
+    }
+
+
+    &__main {
+        display: grid;
+    }
+    &__item {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+        background-color: $menu-color1;
+        padding: .5rem;
+        border: 1px solid black;
+        border-bottom: none;
+        &:nth-child(2n) {
+            background-color: $menu-color2;
+        }
+        &:last-child {
+            border-bottom: 1px solid #000;
+        }
+    }
+    &__item-name {
+        border-right: 2px solid $base-color;
+        font-family: $font-dec;
+    }
+    &__item-price {
+        justify-self: end;
     }
 }
