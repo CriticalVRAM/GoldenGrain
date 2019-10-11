@@ -203,6 +203,8 @@ p {
       justify-content: space-around;
   justify-items: center;
   margin-top: 5rem;
+  border-top: 2px solid #f1c40f;
+  padding-top: 2rem;
 }
 
 .footer__middle {
@@ -448,5 +450,23 @@ p {
 .gallery__image:hover {
   -webkit-transform: scale(1.02);
           transform: scale(1.02);
+}
+
+.author {
+  display: -ms-grid;
+  display: grid;
+  justify-items: center;
+  margin-top: 5rem;
+}
+
+.author__img {
+  width: 35rem;
+  height: auto;
+  border: 3px solid #f1c40f;
+  margin-bottom: 2rem;
+}
+
+.author__text-container {
+  width: 70rem;
 }
 /*# sourceMappingURL=main.css.map */
