@@ -4,6 +4,9 @@
     grid-template-rows: auto auto auto;
     gap: 1.5rem;
     margin: 5rem 0 5rem 0;
+    @media only screen and (max-width: 1500px) {
+        grid-template-columns: auto auto;
+    }
 
     &__item {
         width: 45rem;

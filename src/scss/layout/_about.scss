@@ -3,6 +3,9 @@
     justify-items: center;
     margin-top: 5rem;
     padding: 0 32% 0 32%;
+    @media only screen and (max-width: 1500px) {
+        padding: 0 25% 0 25%;
+    }
 
     &__header {
         border-bottom: 5px solid $base-color;
