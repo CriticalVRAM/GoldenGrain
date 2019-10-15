@@ -2,7 +2,7 @@
     "liveSassCompile.settings.formats": [{
         "format": "compressed",
         "extensionName": ".css",
-        "savePath": "/dist"
+        "savePath": "/docs"
     }],
     "liveSassCompile.settings.excludeList": [
         "**/node_modules/**",
