@@ -1,6 +1,7 @@
 .menu {
     display: grid;
     grid-template-rows: min-content min-content;
+    margin-top: 5rem;
     &__category {
         display: grid;
         grid-auto-flow: column;

@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -25,11 +26,24 @@
                 <img class="nav__devider" src="assets/svg/devider.svg" alt="devider">
             </nav>
         </header>
-        <section class="author">
-            <img class="author__img" src="assets/images/me.jpg" alt="Me, the author.">
-            <div class="author__text-container">
-                <p class="author__text">Uroš Radulović - student. Just because you are passionate doesn't mean you're good. Always check if the milk is in date. </p>
+        <section class="contact">
+            <div class="contact__info">
+                <p class="contact__info-text"><span class="contact__info-text-dec">Hours :</span> Everyday, 6:00-23:00</p>
+                <p class="contact__info-text"><span class="contact__info-text-dec">Adress:</span> Svetogorska 24</p>
+                <p class="contact__info-text"><span class="contact__info-text-dec">Email :</span> goldengrain@gmail.com</p>
+                <p class="contact__info-text"><span class="contact__info-text-dec">Phone :</span> 066-454765</p>
             </div>
+            <from class="contact__form">
+                <p class="contact__form-header">Send us a message</p>
+                <input class="footer__input" type="email" placeholder="Your email">
+                <input class="footer__input" type="text" placeholder="Your name">
+                <textarea class="footer__input" type="textbox" placeholder="Your message"></textarea>
+                <button class="contact__form-button button" type="submit">
+                    <svg class="footer__icon send">
+                        <use href="assets/svg/sprite.svg#icon-chevron-right"></use>
+                    </svg>
+                </button>
+            </from>
         </section>
         <footer class="footer">
             <div class="footer__info">
@@ -56,6 +70,7 @@
                     </a>
                 </div>
             </div>
+        
             <div class="footer__middle">
                 <img class="footer__logo" src="assets/svg/wheat.svg" alt="logo">
                 <p class="footer__copy">Copyright © GoldenGrain inc. Designed by Uros Radulovic.</p>
