@@ -30,7 +30,7 @@
         grid-auto-flow: column;
         list-style: none;
         & li {
-            margin: 2rem 2rem 0 2rem;
+            margin: 0 2rem;
             transition: .1s;
             &:hover {
                 transform: scale(1.05);
