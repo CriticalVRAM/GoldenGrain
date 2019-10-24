@@ -29,24 +29,23 @@
         display: grid;
         grid-auto-flow: column;
         list-style: none;
-    }
-
-    &__item {
-        margin: 2rem 2rem 0 2rem;
-        transition: .1s;
-        &:hover {
-            transform: scale(1.05);
+        & li {
+            margin: 2rem 2rem 0 2rem;
+            transition: .1s;
+            &:hover {
+                transform: scale(1.05);
+            }
         }
-    }
-    &__link {
-        font-family: $font-dec;
-        text-decoration: none;
-        font-size: 2.5rem;
-        color: black;
-        transition: .1s;
-        border-bottom: 0px solid $base-color;
-        &:hover {
-            border-bottom: 3px solid $base-color;
+        & li a {
+            font-family: $font-dec;
+            text-decoration: none;
+            font-size: 2.5rem;
+            color: black;
+            transition: .1s;
+            border-bottom: 0px solid $base-color;
+            &:hover {
+                border-bottom: 3px solid $base-color;
+            }
         }
     }
     &__devider {

@@ -1,27 +1,4 @@
-/* roboto-regular - latin */
-@font-face {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    src: local('Roboto'), local('Roboto-Regular'),
-        url('../assets/fonts/roboto-v20-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('../assets/fonts/roboto-v20-latin-regular.woff') format('woff');
-        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
-
-/* mansalva-regular - latin */
-@font-face {
-    font-family: 'Mansalva';
-    font-style: normal;
-    font-weight: 400;
-    font-display: fallback;
-    src: local('Mansalva Regular'), local('Mansalva-Regular'),
-        url('../assets/fonts/mansalva-v1-latin-regular.woff2') format('woff2'),
-        /* Chrome 26+, Opera 23+, Firefox 39+ */
-        url('../assets/fonts/mansalva-v1-latin-regular.woff') format('woff');
-        /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+@import url('https://fonts.googleapis.com/css?family=Mansalva|Roboto&display=swap');
 
 body {
     font-family: $font-main;
