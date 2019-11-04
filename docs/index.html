@@ -5,12 +5,13 @@
 <head>
     <meta charset="UTF-8">
     <title>Golden Grain Bakery</title>
-    <meta name="keywords" content="bakery, homemade, fresh, bread, pastry">
+    <meta name="keywords" content="bakery, homemade, fresh, bread, about">
     <meta name="description"
         content="Homemade pastry and bread. All of our products are made from scratch with the finest ingredients.">
     <meta name="author" content="Nani-Sore-0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css">
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/css/line-awesome.min.css">
     <link rel="shortcut icon" href="img/wheat.png">
     <link rel="stylesheet" href="css/main.css">
 </head>
@@ -33,11 +34,27 @@
     </header>
     <section class="about">
         <h2 class="about__header">About us</h2>
-        <p class="about__p mb-s">In these days of mass production, it is rare to find a bakery that devotes itself to
-            quality over quantity.</p>
-        <p class="about__p">Golden Grain bakery uses only quality ingredients. All of our products are made from scratch
-            with the finest ingredients, providing you with products of the highest quality. Golden Grain bakery is the
-            perfect spot to have breakfast, a brunch date, or afternoon meeting for coffee and pastries.</p>
+        <img class="about__img" src="img/main.jpg" alt="hands knitting dough">
+        <div class="about__text">
+            <p class="about__p mb-s">
+                In these days of mass production, it is rare to find a bakery that devotes itself to
+                quality over quantity.
+            </p>
+            <p class="about__p mb-s">
+                Enlivened by incredible crisp fixings, our little neighborhood pastry shop on a corner in downtown Chicago
+                started making craftsman breads and naturally prepared desserts. Also, upon a little achievement, neighbors
+                started to approach us for sandwiches made with that awesome bread, trailed by hand crafted soups and
+                servings of mixed greens, and even made-to-arrange scramblers. Our visitors’ solicitations kept on moving us
+                as our bread kitchen’s menu and business developed. You’ll see the stove’s open fire and feel the glow from
+                our broilers working throughout the day. They’re the customs we set up years prior that we still
+                enthusiastically pursue today.
+            </p>
+            <p class="about__p">
+                Golden Grain bakery uses only quality ingredients. All of our products are made from scratch
+                with the finest ingredients, providing you with products of the highest quality. Golden Grain bakery is the
+                perfect spot to have breakfast, a brunch date, or afternoon meeting for coffee and pastries.
+            </p>
+        </div>
         <div class="about__btns">
             <button class="about__button button mr-s"><a href="menu.html" class="about__btn-link">Menu</a></button>
             <button class="about__button button"><a href="contact.html" class="about__btn-link">Contact</a></button>
@@ -51,7 +68,7 @@
                 <a href="author.html" class="footer__link">Author</a>
             </div>
             <div class="footer__social">
-                <a href="#" class="footer__social-link"><i class="lab la-facebook icon facebook"></i></a>
+                <a href="#" class="footer__social-link"><i class="lab la-facebook-square icon facebook"></i></a>
                 <a href="#" class="footer__social-link"><i class="lab la-instagram icon instagram"></i></a>
                 <a href="#" class="footer__social-link"><i class="lab la-twitter icon twitter"></i></a>
             </div>
@@ -60,7 +77,7 @@
             <img class="footer__logo" src="img/wheat.svg" alt="logo">
             <p class="footer__copy">Copyright © GoldenGrain inc. Designed by Uroš Radulović.</p>
         </div>
-        <form class="footer__newsletter">
+        <form method="POST" action="main.php" class="footer__newsletter">
             <label for="email">Subscribe to our newsletter:</label>
             <input placeholder="E-mail" class="footer__input" type="email" name="email" id="email">
             <button class="button" type="submit"><i class="la la-angle-right icon footer__icon"></i></button>

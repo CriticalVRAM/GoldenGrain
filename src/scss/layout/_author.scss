@@ -9,7 +9,10 @@
         border: 3px solid $base-color;
         margin-bottom: 2rem;
     }
+    &__text {
+        text-align: justify;
+    }
     &__text-container {
-        width: 52rem;
+        width: 45rem;
     }
 }

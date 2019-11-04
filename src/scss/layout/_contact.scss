@@ -4,31 +4,36 @@
 
 
     &__info {
+        display: grid;
+        grid-template-columns: auto auto;
+        column-gap: 20rem;
         margin-bottom: 2rem;
         border-bottom: 3px solid $base-color;
         padding-bottom: 2rem;
     }
-    &__info-text-dec {
-        font-family: $font-dec;
-        font-size: 2.2rem;
-        margin-right: 3rem;
+    &__info-text {
+        justify-self: end;
     }
 
 
     &__form {
         display: grid;
         justify-items: center;
-        gap: 1rem;
-        & textarea {
-            max-width: 20rem;
-            min-height: 8rem;
+        gap: 2rem;
+        & p {
+            font-size: 2.4rem;
         }
-    }
-    &__form-button {
-        justify-self: center;
-    }
-    &__form-header {
-        font-family: $font-dec;
-        font-size: 2.2rem;
+        & input {
+            width: 30rem;
+        }
+        & textarea {
+            max-width: 40rem;
+            width: 30rem;
+            height: 13rem;
+            max-height: 15rem;
+        }
+        & button {
+            font-size: 2.2rem;
+        }
     }
 }
