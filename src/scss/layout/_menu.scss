@@ -1,6 +1,9 @@
 .menu {
     display: grid;
-    grid-template-rows: min-content min-content;
+    grid-template-columns: 40rem 40rem;
+    grid-template-rows: auto auto auto;
+    gap: 5rem;
+    column-gap: 7rem;
     margin-top: 5rem;
     &__category {
         display: grid;
@@ -28,7 +31,7 @@
     }
 
 
-    &__main {
+    &__block {
         display: grid;
     }
     &__item {
@@ -48,7 +51,6 @@
     }
     &__item-name {
         border-right: 2px solid $base-color;
-        font-family: $font-dec;
     }
     &__item-price {
         justify-self: end;

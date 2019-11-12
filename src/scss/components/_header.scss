@@ -14,7 +14,9 @@
         height: 12rem;
         width: 12rem;
         margin-bottom: 2rem;
-
+        &:hover {
+            animation: bounce .5s;
+        }
     }
     &__h1 {
         margin-bottom: -2rem;

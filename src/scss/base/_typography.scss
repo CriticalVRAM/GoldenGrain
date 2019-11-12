@@ -16,9 +16,11 @@ h2 {
 }
 
 h3 {
-    font-family: $font-dec;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: normal;
+    border-bottom: 3px solid $base-color;
+    margin-bottom: 2rem;
+    justify-self: center;
 }
 
 p {
