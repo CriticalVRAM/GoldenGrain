@@ -1,39 +1,37 @@
 .contact {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
 
+  &__info {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20rem;
+    margin-bottom: 2rem;
+    border-bottom: 3px solid $base-color;
+    padding-bottom: 2rem;
+  }
+  &__info-text {
+    justify-self: end;
+  }
 
-    &__info {
-        display: grid;
-        grid-template-columns: auto auto;
-        column-gap: 20rem;
-        margin-bottom: 2rem;
-        border-bottom: 3px solid $base-color;
-        padding-bottom: 2rem;
+  &__form {
+    display: grid;
+    justify-items: center;
+    gap: 2rem;
+    & p {
+      font-size: 2.4rem;
     }
-    &__info-text {
-        justify-self: end;
+    & input {
+      width: 30rem;
     }
-
-
-    &__form {
-        display: grid;
-        justify-items: center;
-        gap: 2rem;
-        & p {
-            font-size: 2.4rem;
-        }
-        & input {
-            width: 30rem;
-        }
-        & textarea {
-            max-width: 40rem;
-            width: 30rem;
-            height: 13rem;
-            max-height: 15rem;
-        }
-        & button {
-            font-size: 2.2rem;
-        }
+    & textarea {
+      max-width: 40rem;
+      width: 30rem;
+      height: 13rem;
+      max-height: 15rem;
     }
+    & button {
+      font-size: 2.2rem;
+    }
+  }
 }

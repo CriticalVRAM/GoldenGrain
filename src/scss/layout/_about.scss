@@ -1,32 +1,32 @@
 .about {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto;
-    justify-items: center;
-    margin-top: 5rem;
-    padding: 0 12%;
-    @media only screen and (max-width: 1500px) {
-        padding: 0 7% 0 7%;
-    }
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto;
+  justify-items: center;
+  margin-top: 5rem;
+  padding: 0 12%;
+  @media only screen and (max-width: 1500px) {
+    padding: 0 7% 0 7%;
+  }
 
-    &__header {
-        grid-column: span 2;
-        border-bottom: 5px solid $base-color;
-        margin-bottom: 3.5rem;
-    }
-    &__img {
-        width: 650px;
-        margin-right: 5rem;
-    }
-    &__p {
-        text-align: justify;
-    }
-    &__btn-link {
-        color: black;
-    }
-    &__btns {
-        grid-column: span 2;
-        display: flex;
-        margin-top: 6rem;
-    }
+  &__header {
+    grid-column: span 2;
+    border-bottom: 5px solid $base-color;
+    margin-bottom: 3.5rem;
+  }
+  &__img {
+    width: 650px;
+    margin-right: 5rem;
+  }
+  &__p {
+    text-align: justify;
+  }
+  &__btn-link {
+    color: black;
+  }
+  &__btns {
+    grid-column: span 2;
+    display: flex;
+    margin-top: 6rem;
+  }
 }

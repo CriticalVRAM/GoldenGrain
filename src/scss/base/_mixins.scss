@@ -7,19 +7,29 @@
 */
 
 @mixin respond($breakpoint) {
-    @if $breakpoint == phone {
-        @media only screen and (max-width: 37.5em) { @content };  //600px
-    }
-    @if $breakpoint == tab-port {
-        @media only screen and (max-width: 56.25em) { @content }; //900px
-    }
-    @if $breakpoint == tab-land {
-        @media only screen and (max-width: 75em) { @content };    //1200px
-    }
-    @if $breakpoint == ie11 {
-        @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) { @content }; // query for ie11 only
-    }
-    @if $breakpoint == chrome {
-        @media screen and (-webkit-min-device-pixel-ratio:0) { @content }; // query for chrome only
-    }
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    } //600px
+  }
+  @if $breakpoint == tab-port {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    } //900px
+  }
+  @if $breakpoint == tab-land {
+    @media only screen and (max-width: 75em) {
+      @content;
+    } //1200px
+  }
+  @if $breakpoint == ie11 {
+    @media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+      @content;
+    } // query for ie11 only
+  }
+  @if $breakpoint == chrome {
+    @media screen and (-webkit-min-device-pixel-ratio: 0) {
+      @content;
+    } // query for chrome only
+  }
 }

@@ -1,18 +1,18 @@
 .author {
-    display: grid;
-    justify-items: center;
-    margin-top: 5rem;
+  display: grid;
+  justify-items: center;
+  margin-top: 5rem;
 
-    &__img {
-        width: 35rem;
-        height: auto;
-        border: 3px solid $base-color;
-        margin-bottom: 2rem;
-    }
-    &__text {
-        text-align: justify;
-    }
-    &__text-container {
-        width: 45rem;
-    }
+  &__img {
+    width: 35rem;
+    height: auto;
+    border: 3px solid $base-color;
+    margin-bottom: 2rem;
+  }
+  &__text {
+    text-align: justify;
+  }
+  &__text-container {
+    width: 45rem;
+  }
 }

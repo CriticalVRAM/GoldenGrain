@@ -1,58 +1,57 @@
 .menu {
+  display: grid;
+  grid-template-columns: 40rem 40rem;
+  grid-template-rows: auto auto auto;
+  gap: 5rem;
+  column-gap: 7rem;
+  margin-top: 5rem;
+  &__category {
     display: grid;
-    grid-template-columns: 40rem 40rem;
-    grid-template-rows: auto auto auto;
-    gap: 5rem;
-    column-gap: 7rem;
-    margin-top: 5rem;
-    &__category {
-        display: grid;
-        grid-auto-flow: column;
-        column-gap: 2rem;
-        justify-items: center;
-        padding: .5rem;
-        margin-bottom: 1rem;
+    grid-auto-flow: column;
+    column-gap: 2rem;
+    justify-items: center;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  &__category-name {
+    cursor: pointer;
+    transition: 0.3s;
+    border-bottom: 0px solid $base-color;
+    &:hover {
+      border-bottom: 5px solid $base-color;
+      transform: scale(1.1);
     }
-    &__category-name {
-        cursor: pointer;
-        transition: .3s;
-        border-bottom: 0px solid $base-color;
-        &:hover {
-            border-bottom: 5px solid $base-color;
-            transform: scale(1.1);
-        }
-        &--main {
-            transition: .3s;
-            border-bottom: 5px solid $base-color;
-            &:hover {
-                transform: none;
-            }
-        }
+    &--main {
+      transition: 0.3s;
+      border-bottom: 5px solid $base-color;
+      &:hover {
+        transform: none;
+      }
     }
+  }
 
+  &__block {
+    display: grid;
+  }
+  &__item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-    &__block {
-        display: grid;
+    background-color: $menu-color1;
+    padding: 0.5rem;
+    border: 1px solid black;
+    border-bottom: none;
+    &:nth-child(2n) {
+      background-color: $menu-color2;
     }
-    &__item {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-
-        background-color: $menu-color1;
-        padding: .5rem;
-        border: 1px solid black;
-        border-bottom: none;
-        &:nth-child(2n) {
-            background-color: $menu-color2;
-        }
-        &:last-child {
-            border-bottom: 1px solid #000;
-        }
+    &:last-child {
+      border-bottom: 1px solid #000;
     }
-    &__item-name {
-        border-right: 2px solid $base-color;
-    }
-    &__item-price {
-        justify-self: end;
-    }
+  }
+  &__item-name {
+    border-right: 2px solid $base-color;
+  }
+  &__item-price {
+    justify-self: end;
+  }
 }

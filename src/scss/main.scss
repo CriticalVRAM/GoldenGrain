@@ -1,15 +1,5 @@
 @charset 'UTF-8';
-@import
-  'base/variables',
-  'base/typography',
-  'base/mixins',
-  'base/base',
-  'base/utilities',
-  'components/header',
-  'components/button',
-  'components/footer',
-  'layout/about',
-  'layout/menu',
-  'layout/gallery',
-  'layout/contact',
-  'layout/author';
+@import "base/variables", "base/typography", "base/mixins", "base/base",
+  "base/utilities", "components/header", "components/button",
+  "components/footer", "layout/about", "layout/menu", "layout/gallery",
+  "layout/contact", "layout/author";

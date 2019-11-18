@@ -1,21 +1,21 @@
 .gallery {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
-    gap: 1.5rem;
-    margin: 5rem 0 5rem 0;
-    @media only screen and (max-width: 1500px) {
-        grid-template-columns: auto auto;
-    }
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  gap: 1.5rem;
+  margin: 5rem 0 5rem 0;
+  @media only screen and (max-width: 1500px) {
+    grid-template-columns: auto auto;
+  }
 
-    &__item {
-        width: 45rem;
-        height: 30rem;
-    }
+  &__item {
+    width: 45rem;
+    height: 30rem;
+  }
 
-    &__image {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
+  &__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
