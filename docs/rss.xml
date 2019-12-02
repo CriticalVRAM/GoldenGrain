@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+    <channel>
+        <title>Golden Grain RSS</title>
+        <link></link>
+        <description></description>
+
+        <item>
+            <title>New multigrain bread</title>
+            <link>https://nani-sore-0.github.io/GoldenGrain/menu.html</link>
+            <description>We are now selling a new type of multigrain bread.</description>
+        </item>
+        <item>
+            <title>Fresh croissants every day</title>
+            <link>https://nani-sore-0.github.io/GoldenGrain/menu.html</link>
+            <description>We are now selling fresh croissants strait for the oven every day.</description>
+        </item>
+    </channel>
+</rss>
