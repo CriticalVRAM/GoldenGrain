@@ -1,21 +1,38 @@
 .gallery {
+  position: relative;
+  margin: 5rem 0 5rem 0;
+
   display: grid;
   grid-template-columns: auto auto auto;
   grid-template-rows: auto auto auto;
   gap: 1.5rem;
-  margin: 5rem 0 5rem 0;
-  @media only screen and (max-width: 1500px) {
+
+  animation: 1s ease 0s 1 slidein;
+  @media only screen and (max-width: 1200px) {
     grid-template-columns: auto auto;
   }
 
   &__item {
     width: 45rem;
-    height: 30rem;
+    height: auto;
+    @media only screen and (max-width: 1500px) {
+      width: 38rem;
+    }
   }
 
   &__image {
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+}
+@keyframes slidein {
+  0% {
+    opacity: 0;
+    top: 100px;
+  }
+  100% {
+    opacity: 1;
+    top: 0px;
   }
 }
